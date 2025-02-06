@@ -1,5 +1,5 @@
 import './Sidebar.css';
-import logoSpotify from '../../assets/icons/logo-spotify.png';
+import logoSoundfy from '../../assets/icons/logo-sound.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faSearch, faGlobe } from '@fortawesome/free-solid-svg-icons';
 
@@ -9,7 +9,7 @@ const Sidebar = () => {
             <nav className="sidebar__navigation">
                 <div className="logo">
                     <a href="">
-                        <img src={logoSpotify} alt="Logo" />
+                        <img src={logoSoundfy} alt="Logo" />
                     </a>
                 </div>
                 <ul>

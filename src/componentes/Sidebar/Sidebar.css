@@ -8,20 +8,20 @@
 }
 
 .sidebar__navigation{
-    background-color: #121212;
+    background-color: #8a2b2b;
     border-radius:8px;
     padding:16px 0 0 16px;
 }
 
 .logo{
-    background: #121212;
+    background: #8a2b2b;
     display:flex;
     border-radius:8px ;
     padding:16px 0 0 16px;
 }
 
 .sidebar__navigation .logo img{
-    width:80px;
+    width:100px;
 }
 
 .sidebar nav ul{
@@ -35,10 +35,15 @@
 }
 
 .sidebar nav ul li a{
-    color: #b3b3b3;
+    color: #000000;
     text-decoration: none;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.sidebar nav ul li a:hover {
+    color: #fff; /* Muda a cor para branco quando o mouse passa por cima */
 }
 
 .sidebar nav ul li a span{
@@ -46,7 +51,7 @@
 }
 
 .library{
-    background-color:#121212;
+    background-color:#8a2b2b;
     border-radius:8px;
     display:flex;
     justify-content: space-between;
@@ -56,6 +61,7 @@
     font-weight: 600;
     font-size:14px;
     margin-top: 10px;
+    height: 55vh;
 }
 
 .library .library__content{
@@ -66,10 +72,10 @@
 .library .library__button{
     display:flex;
     margin-right: 10px;
-    color:#b3b3b3;
+    color:#000000;
     background-color: transparent;
     border:0px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     text-align: center;
     text-decoration: none;
@@ -94,13 +100,13 @@
     align-items: flex-start;
     justify-content: space-between;
     gap:20px;
-    background-color: #242424;
+    background-color: #a24b4b;
     color:#b3b3b3;
     font-weight: 600;
     font-size: 14px;
     margin: 8px 0;
     padding:16px 20px;
-    border-radius:10px;
+    border-radius:8px;
 }
 
 .section-playlist .section-playlist__content{

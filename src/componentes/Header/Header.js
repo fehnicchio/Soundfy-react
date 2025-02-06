@@ -23,7 +23,7 @@ const Header = () => {
                     autoCorrect="off" 
                     autoCapitalize="off" 
                     spellCheck="false"
-                    placeholder="O que você quer ouvir?"
+                    placeholder="Descubra a sua música"
                 />
             </div>
             <div className="header__login">

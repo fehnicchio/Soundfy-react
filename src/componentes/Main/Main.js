@@ -21,7 +21,7 @@ const Main = () => {
         <div className="playlist-container">
             <div id="result-playlists">
                 <div className="playlist">
-                    <h1 id="greeting">Boas vindas</h1>
+                    <h1 id="greeting">Escute a sua próxima playlist</h1>
                     <h2 className="session">Navegar por todas as seções</h2>
                 </div>
                 <div className="offer__scroll-container">
